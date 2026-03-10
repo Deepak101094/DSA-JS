@@ -2,7 +2,7 @@
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. */
 
 function removeDuplicate(arr) {
- let x = 0; // x will be point to position where we need to add unique element
+ let x = 0; // x will be point to position where we need to add/shift unique element
  // i will be point to the unique element from the arrary
 
  for(let i = 0; i < arr.length; i++) {
